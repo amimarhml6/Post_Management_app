@@ -1,0 +1,98 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color:#0A0D24;
+  color: white;
+    padding :1rem;
+    height:50px;
+}
+.navbar-brand, .brand-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.icondark{
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+.brand-name {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+    padding: 5px 7px;
+    font-size:18px;
+}
+
+.nav-link:hover {
+  background-color: rgb(255, 255, 255);
+    color: #0A0D24;
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+    box-shadow: 0 -4px 14px rgba(5, 215, 187, 0.909);;
+}
+.footer {
+    background-color: #0A0D24;
+    color: white;
+    padding: 1.5rem;
+    height: 400px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-content {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: rgb(229, 221, 207);
+  }
+
+  p a{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: rgb(229, 221, 207);
+    text-decoration: none;
+    transition: text-shadow 0.2s ease;
+  }
+  p a:hover{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: rgba(5, 215, 187, 0.909);
+    text-shadow: 2px 2px 5px  rgba(28, 244, 215, 0.909);
+  }
+  span:hover{
+    color: rgba(5, 215, 187, 0.909);
+    text-shadow: 2px 2px 5px  rgba(28, 244, 215, 0.909);
+  }
+
+  h2{
+    margin-bottom: 2rem;
+    margin-top:4rem;
+  }
