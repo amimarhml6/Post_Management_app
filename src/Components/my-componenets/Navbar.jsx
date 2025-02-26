@@ -1,6 +1,7 @@
 import './Navbar.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import bloggerLogo from "../../assets/bloggerLogo.svg";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -25,7 +26,7 @@ export default function Navbar() {
     <nav className="navbar" position='static'>
       <div className="navbar-brand">
         <Link to="/Home" className="brand-link">
-          <img src="/public/bloggerLogo.svg" alt="Blogger Logo" className="logo" />
+        <img src={bloggerLogo} alt="Blogger Logo" className="logo" />
           <span className="brand-name">Blogger</span>
         </Link>
       </div>
