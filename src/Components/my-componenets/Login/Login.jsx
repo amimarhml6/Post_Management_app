@@ -18,6 +18,8 @@ function Login() {
   useEffect(() => {
     localStorage.setItem('Login', 'false');
     localStorage.removeItem('userConnected');
+    const emptyPosts=[]
+    localStorage.setItem('posts', JSON.stringify(emptyPosts));
     const users = JSON.parse(localStorage.getItem("users")) || [];
     setUsersTable(users);
   }, []);
