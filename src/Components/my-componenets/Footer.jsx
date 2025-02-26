@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Navbar.css'
 import { Link,useLocation } from 'react-router-dom'
 
@@ -24,7 +24,7 @@ const Footer = () => {
                     <p>Oubahi Hadjer</p>
                     <p>Nesrine oubahi</p>
                     <p>Abdou oubahi</p>
-                    <p>Amimer oubahi</p>
+                    <p>Amar Houmel</p>
                 </div>
                 <div>
                     <h2>Contact us</h2>

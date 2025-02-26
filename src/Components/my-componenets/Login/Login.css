@@ -1,0 +1,56 @@
+
+
+*{
+    font-family: 'roboto';
+}
+
+.LoginInterface{
+    background-color: #0A0D24;
+    height:89vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.LoginInterface .Login-blg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.LoginInterface .Login-blg .login-Submit{
+    width: 130px;
+    background-color: #999999;
+    color: black;
+    height :35px;
+    margin-top:10px;
+    border:none;
+}
+.LoginInterface .Login-blg .login-Submit:hover{
+    box-shadow: 1px 1px 20px #ffffff;
+}
+.LoginInterface .Login-blg .login-Submit #links-submit{
+    text-decoration: none;
+    color: black;
+    
+}
+.LoginInterface .Login-blg .forms-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.LoginInterface .Login-blg .forms-login .p-login{
+    font-size: 15px;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

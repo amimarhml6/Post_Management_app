@@ -1,0 +1,84 @@
+@import 'boxicons/css/boxicons.min.css';
+*{
+    font-family: 'roboto';
+}
+.create-blg{
+    background-color: #0A0D24;
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.newPost .forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15px;
+    
+}
+.forms .in{
+    width: 370px;
+    height: 19px;
+    padding: 6px 10px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color:#ffffff;
+    font-weight: 600;
+
+}
+.forms #txtAria{
+    padding: 10px 10px;
+    height:120px;
+}
+.forms .in::placeholder{
+    color:#ffffff;
+    font-weight: 400;
+}
+.forms .upload{
+    display: flex;
+    justify-content:center;
+    align-items: center ;
+    gap: 2px;
+    
+
+}
+.forms .upload h4{
+    font-weight: 400;
+}
+.forms .upload .bx .bx-upload{
+    font-size:40px;
+}
+.forms .upload .uploadIMG{
+    background-color: transparent;
+    border: none;
+    
+}
+.create-blg .newPost .create-Submit{
+    width: 130px;
+    background-color: #999999;
+    color: black;
+    height :35px;
+    margin-top:10px;
+    border:none;
+}
+.create-blg .newPost .create-Submit:hover{
+    box-shadow: 1px 1px 20px #ffffff;
+}
+#upload-input{
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 10px;
+    padding: 5px 40px;
+    color:white;
+}

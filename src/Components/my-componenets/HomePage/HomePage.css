@@ -1,0 +1,68 @@
+@import 'boxicons/css/boxicons.min.css';
+
+*{  
+    margin: 0px;
+    padding: 0px;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+.HomePage{
+    background:linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)), url(../../../assets/header1.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    
+}
+.texts .h22{
+    font-size: 40px;
+    color:#E1A344;
+    font-weight: 650;
+}
+.texts .h11{
+    font-size: 50px;
+    color:white;
+    font-weight: 650;
+}
+
+.butn .btn{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    border:none;
+    padding: 7px 13px;
+    background-color: #0A0D24;
+    border-radius: 20px;
+
+}
+.butn .btn:hover{
+    color:#0A0D24;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px #0A0D24;
+    transition: 0.3s ease-in;
+}
+.HomePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

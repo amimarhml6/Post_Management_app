@@ -1,0 +1,56 @@
+
+
+*{
+    font-family: 'roboto';
+}
+
+.SignInterface{
+    background-color: #0A0D24;
+    height:89vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.SignInterface .Sign-blg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.SignInterface .Sign-blg .Sign-Submit{
+    width: 130px;
+    background-color: #999999;
+    color: black;
+    height :35px;
+    margin-top:10px;
+    border:none;
+}
+.SignInterface .Sign-blg .Sign-Submit #link-submit{
+    text-decoration: none;
+    color: black;
+    
+}
+.SignInterface .Sign-blg .Sign-Submit:hover{
+    box-shadow: 1px 1px 20px #ffffff;
+}
+.SignInterface .Sign-blg .forms-Sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.SignInterface .Sign-blg .forms-Sign .forS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.SignInterface .Sign-blg .forms-Sign .p-Sign{
+    font-size: 15px;
+}

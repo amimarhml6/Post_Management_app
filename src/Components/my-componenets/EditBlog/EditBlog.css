@@ -1,0 +1,82 @@
+@import 'boxicons/css/boxicons.min.css';
+*{
+    font-family: 'roboto';
+}
+.edit-blg{
+    background-color: #0A0D24;
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.EditPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.EditPost .editforms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15px;
+    
+}
+.editforms .ed{
+    width: 370px;
+    height: 19px;
+    padding: 6px 10px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color:#ffffff;
+    font-weight: 600;
+
+}
+
+.editforms #txtAria{
+    padding: 10px 10px;
+    height:120px;
+}
+.editforms .ed::placeholder{
+    color:#ffffff;
+    font-weight: 400;
+}
+.editforms .upload{
+    display: flex;
+    justify-content:center;
+    align-items: center ;
+    gap: 5px;
+    
+
+}
+.editforms .upload h4{
+    font-weight: 400;
+}
+.editforms .upload .bx .bx-upload{
+    font-size:40px;
+}
+.editforms .upload .uploadIMG{
+    background-color: transparent;
+    border: none;
+    
+}
+.edit-blg .EditPost .edit-Submit{
+    width: 100px;
+    background-color: #999999;
+    color: black;
+    height :35px;
+    margin-top:10px;
+    border:none;
+}
+.edit-blg .EditPost .edit-Submit:hover{
+    box-shadow: 1px 1px 20px #ffffff;
+}
+.edit-blg .EditPost .edit-Submit #save{
+    text-decoration: none;
+    color:black;
+}
