@@ -20,17 +20,12 @@ const Footer = () => {
                     <p>&copy;2025 Copy Right Team7</p>
                 </div>
                 <div>
-                    <h2>About Us</h2>
-                    <p>Oubahi Hadjer</p>
-                    <p>Nesrine oubahi</p>
-                    <p>Abdou oubahi</p>
-                    <p>Amar Houmel</p>
+                
+                   
                 </div>
                 <div>
                     <h2>Contact us</h2>
-                <p><a href="mailto:hadjeroubahi14@gmail.com" >hadjeroubahi14@gmail.com</a></p>
-                <p><a href="mailto:hadjeroubahi14@gmail.com" >hadjeroubahi14@gmail.com</a></p>
-                <p><a href="mailto:belhoutabdou57@gmail.com" >belhoutabdou57@gmail.com</a></p>
+                
                 <p><a href="mailto:dzi07596@gmail.com" >dzi07596@gmail.com</a></p>
                 </div>
             </div>
