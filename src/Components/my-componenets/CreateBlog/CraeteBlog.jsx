@@ -129,9 +129,9 @@ export default function CreateBlog() {
                 </form>
 
                 {(!Data.author || !Data.title || !Data.preview || !Data.imageUrl) ? (
-                    <p style={{ color: "red" }}>Please complete all the fields</p>
+                    <p style={{ color: "red" , marginBottom:"50px" }}>Please complete all the fields</p>
                 ) : (
-                    <button className='create-Submit' onClick={handleClick}>Submit</button>
+                    <button className='create-Submit' style={{marginBottom:"50px" }} onClick={handleClick}>Submit</button>
                 )}
             </div>
         </div>

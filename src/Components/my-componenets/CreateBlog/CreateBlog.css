@@ -82,3 +82,21 @@
     padding: 5px 40px;
     color:white;
 }
+
+@media (max-width: 410px) {
+    .create-blg{
+        height: 100%;
+    }
+    .newPost .forms{
+        width: 100%;
+    }
+    .forms .in{
+        width: 100%;
+    }
+    .create-blg .newPost .create-Submit{
+        width: 100%;
+    }
+    .forms h1{
+        margin-top:20px;
+    }
+}

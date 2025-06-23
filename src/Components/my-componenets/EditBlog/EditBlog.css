@@ -80,3 +80,85 @@
     text-decoration: none;
     color:black;
 }
+@media (max-width: 600px) {
+    .edit-blg .EditPost .editforms {
+        width: 80%;
+    }
+    .edit-blg .EditPost .edit-Submit {
+        width: 80%;
+    }
+    #upload-input{
+        opacity: 0;
+    }
+    #editImgss{
+        margin-left: -180px;
+    }
+}
+@media (max-width: 498px) {
+    .edit-blg .EditPost .editforms {
+        width: 80%;
+    }
+    .edit-blg .EditPost .edit-Submit {
+        width: 80%;
+    }
+    .edit-blg .EditPost .editforms .ed {
+        width: 100%;
+       
+    }
+    #upload-input{
+        opacity: 0;
+    }
+    #editImgss{
+        margin-left: -180px;
+    }
+}
+@media (max-width: 405px) {
+
+    .edit-blg .EditPost .editforms {
+        width: 70%;
+    }
+    .edit-blg .EditPost .edit-Submit {
+        width:50%;
+    }
+    .edit-blg .EditPost .editforms .ed {
+        width: 100%;
+       
+    }
+    .edit-blg .EditPost .editforms .upload .bx {
+        font-size: 30px;
+
+    }
+    .edit-blg .EditPost .editforms .upload .uploadIMG {
+        width: 0%;
+    }
+    #upload-input{
+        opacity: 0;
+    }
+    #editImgss{
+        margin-left: -180px;
+    }
+}
+@media (max-width: 359px) {
+
+    .edit-blg .EditPost .editforms {
+        width: 50%;
+    }
+    .edit-blg .EditPost .edit-Submit {
+        width:50%;
+    }
+    .edit-blg .EditPost .editforms .ed {
+        width: 100%;
+    }
+
+    .edit-blg .EditPost .editforms .upload .uploadIMG {
+        width: 0%;
+    }
+    #upload-input{
+        opacity: 0;
+    }
+    #editImgss{
+        margin-left: -180px;
+    }
+
+
+}

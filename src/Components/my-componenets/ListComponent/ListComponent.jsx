@@ -65,7 +65,7 @@ export default function ListComponent() {
           <input
             className="in"
             type="text"
-            placeholder="Search for your Post ..."
+            placeholder="Search for your Post.."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />

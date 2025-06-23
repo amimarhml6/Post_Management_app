@@ -2,6 +2,10 @@ import './Navbar.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import bloggerLogo from "../../assets/bloggerLogo.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -22,6 +26,13 @@ export default function Navbar() {
     navigate('/login');
   };
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  
+
   return (
     <nav className="navbar" position='static'>
       <div className="navbar-brand">
@@ -31,22 +42,29 @@ export default function Navbar() {
         </Link>
       </div>
 
+      <div className="iconNavbar" onClick={toggleMenu}>
+        <FontAwesomeIcon icon={faBars} size="lg" />
+      </div>
+
       {isLoggedIn ? (
         <>
-          <div className="navbar-links">
+          <div className={`navbar-links ${isMenuOpen ? 'show-menu' : 'hide-menu'}`}>
             <Link to="/Home" className="nav-link">Home</Link>
             <Link to="/Create" className="nav-link">Create</Link>
             <a href="#footerid" className="nav-link">Contact Us</a>
           </div>
-          <div className='log' style={{display:'flex',justifyContent:'center',alignItems:'center',gap:'25px',marginRight:"100px"}}>
+          <div className={`log ${isMenuOpen ? 'show-menu' : 'hide-menu'}`}>
             {NameUser}
             <button onClick={handleLogout} className="nav-link" id='login'>Log Out</button>
-           
           </div>
+
         </>
       ) : (
         <button onClick={handleLogout} className="nav-link" id='login' style={{backgroundColor:"green", padding:"6px 10px",marginRight:"100px"}}>Log In</button>
       )}
+
+
+
 
       
     </nav>

@@ -15,6 +15,7 @@ html, body {
   height:30px;
   width: 100%; 
 }
+
 .navbar-brand, .brand-link {
   display: flex;
   align-items: center;
@@ -25,17 +26,6 @@ html, body {
   height: 35px;
   margin-right: 10px;
   margin-left: 10px;
-}
-
-.icondark{
-  height: 30px;
-  margin-right: 40px;
-  cursor: pointer;
-}
-
-.icondark:hover{
-  height: 33px;
-  
 }
 
 .brand-name {
@@ -57,10 +47,10 @@ html, body {
   font-size:18px;
   border-radius: 10px;
 }
-
 .log{
-  margin-right:-130px;
+  margin-right: 150px;
 }
+
 
 #login:hover{
   color:white;
@@ -70,7 +60,7 @@ html, body {
   background-color:rgb(228, 44, 11);
   border-radius: 10px;
   padding: 5px 10px;
-  
+  margin-left:15px;
 }
 
 .nav-link:hover {
@@ -81,48 +71,69 @@ html, body {
     box-shadow: 0 -4px 14px rgba(5, 215, 187, 0.909);
     
 }
-.footer {
-    background-color: #0A0D24;
-    color: white;
-    padding: 1.5rem;
-    height: 400px;
+
+
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 10px;
+    height: auto;
   }
 
-  .footer-content {
+  .navbar-brand {
+    width: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .page-content {
-    padding: 2rem;
-    text-align: center;
-    color: white;
-  }
-  p {
-    font-size: 18px;
-    margin-bottom: 1rem;
-    color: rgb(229, 221, 207);
-  }
-
-  p a{
-    font-size: 18px;
-    margin-bottom: 1rem;
-    color: rgb(229, 221, 207);
-    text-decoration: none;
-    transition: text-shadow 0.2s ease;
-  }
-  p a:hover{
-    font-size: 18px;
-    margin-bottom: 1rem;
-    color: rgba(5, 215, 187, 0.909);
-    text-shadow: 2px 2px 5px  rgba(28, 244, 215, 0.909);
-  }
-  span:hover{
-    color: rgba(5, 215, 187, 0.909);
-    text-shadow: 2px 2px 5px  rgba(28, 244, 215, 0.909);
+  .navbar-links,
+  .log {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+    background-color: #0A0D24;
+    padding: 10px 0;
+    transition: all 0.3s ease;
   }
 
-  h2{
-    margin-bottom: 2rem;
-    margin-top:4rem;
+  .log #login{
+    margin-left:0px;
   }
+
+  .show-menu {
+    display: flex !important;
+  }
+
+  .nav-link {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .log {
+    margin: 0;
+    margin-right:50px;
+  }
+
+  .iconNavbar {
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 40px;
+    font-size: 20px;
+    margin-top: -40px;
+  }
+}
+
+
+
+
+@media (min-width: 801px) {
+  .iconNavbar {
+    display: none;
+  }
+}

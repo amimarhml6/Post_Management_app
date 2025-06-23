@@ -74,3 +74,62 @@ html {
     color: #999;
 }
 
+@media (max-width: 1050px){
+    .Postss .Grids {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 15px 0px 15px 20px;
+    }
+    .Settings .allPosts {
+        font-size: 25px;
+    }
+    .elements {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .elements button .bx {
+        font-size: 25px;
+    }
+    .search {
+        width: 200px; 
+       
+    }
+}
+@media (max-width: 685px) {
+    .Postss .Grids {
+        grid-template-columns: 1fr;
+        margin-left:28%;
+    }
+}
+
+@media (max-width: 400px){
+    .Postss .Grids {
+        grid-template-columns: 1fr;
+        margin: 15px 0px 15px 20px;
+    }
+    .Settings .allPosts {
+        font-size: 25px;
+    }
+    .elements {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .elements button .bx {
+        font-size: 20px;
+    }
+    .search {
+        width: 170px; 
+    }
+}
+
+@media (max-width: 812px) {
+    .Postss .Lists {
+        width:80%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 428px) {
+    .Postss .Lists {
+        width:100%;
+        margin-left: 3%;
+    }
+}

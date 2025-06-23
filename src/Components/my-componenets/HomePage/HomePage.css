@@ -10,8 +10,9 @@ html {
   }
 .HomePage{
     background:linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)), url(../../../assets/header1.svg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
+    background-repeat: no-repeat;
     background-size:cover;
     height: 80vh;
     width: 100%;
@@ -65,4 +66,20 @@ html {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .HomePage{
+        height: 50vh;
+    }
+    .texts .h22{
+        font-size: 30px;
+    }
+    .texts .h11{
+        font-size: 40px;
+    }
+    .butn .btn{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
 }

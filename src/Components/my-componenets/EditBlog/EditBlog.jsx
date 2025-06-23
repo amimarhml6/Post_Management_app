@@ -109,6 +109,7 @@ export default function EditBlog() {
                             <img 
                                 src={editData.imageUrl} 
                                 alt="Preview" 
+                                id='editImgss'
                                 style={{ width: "100px", height: "100px", objectFit: "cover", marginRight: "15px" }} 
                             />
                         )}
@@ -117,7 +118,7 @@ export default function EditBlog() {
                     </div>
                 </form>
 
-                <button className='edit-Submit' onClick={handleSave}>Save</button>
+                <button className='edit-Submit' onClick={handleSave} >Save</button>
             </div>
         </div>
     );
