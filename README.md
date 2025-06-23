@@ -15,5 +15,5 @@ A simple frontend blog post management app built with React and styled using Tai
 - Basic user interface with Figma-based layout
 - Built using React and Tailwind CSS
 
-> ⚠️ Note: This project is **frontend only**. There is **no backend** or persistent data storage. It is also currently **not responsive** on mobile or tablet screens.
+> ⚠️ Note: This project is **frontend only**. There is **no backend** or persistent data storage. It is also currently **responsive** on mobile or tablet screens.
 
